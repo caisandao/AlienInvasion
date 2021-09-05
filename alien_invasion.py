@@ -28,7 +28,7 @@ class AlienInvasion:
     def _check_events(self):
         """相应按键和鼠标事件"""
         for event in pygame.event.get():
-            if event.type == pygame.Quit:
+            if event.type == pygame.QUIT:
                 sys.exit()
 
     def _update_screen(self):
